@@ -38,4 +38,5 @@ let datas =[
  }
  searchInput.addEventListener("input", function(e){
    let result = e.target.value.toLowerCase();
+   let fitterUser = datas.filter(item)
  })
