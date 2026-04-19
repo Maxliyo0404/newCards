@@ -1,1 +1,2 @@
-let container = document.getElementById("ontainerId");
+let container = document.getElementById("containerId");
+let searchInput =
