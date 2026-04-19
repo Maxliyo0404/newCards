@@ -25,4 +25,6 @@ let datas =[
   { "id": 20, "ism": "Sevara", "familiya": "G'ofurova", "yosh": 23, "shahar": "Zarafshon", "email": "sevara@example.com" }
 
 ]
- function
+ function renderUser(data){
+    
+ }
