@@ -25,21 +25,23 @@ let datas =[
   { "id": 20, "ism": "Sevara", "familiya": "G'ofurova", "yosh": 23, "shahar": "Zarafshon", "email": "sevara@example.com" }
 
 ]
- function renderUser(data){
-   let malumot = datas.map(data => `
-       <div class="cards" keys = {el.id}>
-               <img src="https://picsum.photos/200/300?random=${item.id} " alt="rasm">
-               <h2>${data.ism}</h2>
-               <p>${data.familiya}</p>
-               <a href="#">${data.email}</a>
+ function renderUser(datas){
+   let malumot = datas.map(user => `
+       <div class="cards" keys = {user.id}>
+               <img src="https://picsum.photos/200/300?random=${user.id} " alt="rasm">
+               <h2>${user.ism}</h2>
+               <p>${user.familiya}</p>
+               <a href="#">${user.email}</a>
       </div>
     `).join("");
     container.innerHTML = malumot;
  }
  searchInput.addEventListener("input", function(e){
    let result = e.target.value.toLowerCase();
-   let fitterUser = datas.filter(data =>
-    data.ism.toLowerCase().includes(result) ||
-    data.familiya.toLowerCase().includes(result)
-   )
+   let fitterUser = datas.filter(user =>
+    user.ism.toLowerCase().includes(result) ||
+    user.familiya.toLowerCase().includes(result)
+   );
+    renderUser(fitterUser);
  })
+ renderUser(datas);
