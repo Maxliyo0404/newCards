@@ -36,4 +36,6 @@ let datas =[
     `).join("");
     container.innerHTML = malumot;
  }
- searchInput.addEventListener("input", function)
+ searchInput.addEventListener("input", function(e){
+   let result = e.target.value.toLowerCase();
+ })
