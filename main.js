@@ -27,6 +27,11 @@ let datas =[
 ]
  function renderUser(data){
    let malumot = datas.map(data => `
-   
+       <div class="cards" keys = {el.id}>
+               <img src="" alt="rasm">
+               <h2>${data.ism}</h2>
+               <p>${data.familiya}</p>
+               <a href="#">${data.email}</a>
+</div>
     `)
  }
