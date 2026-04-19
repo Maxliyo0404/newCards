@@ -28,7 +28,7 @@ let datas =[
  function renderUser(data){
    let malumot = datas.map(data => `
        <div class="cards" keys = {el.id}>
-               <img src="" alt="rasm">
+               <img src="https://picsum.photos/200/300?random=${item.id} " alt="rasm">
                <h2>${data.ism}</h2>
                <p>${data.familiya}</p>
                <a href="#">${data.email}</a>
