@@ -34,4 +34,5 @@ let datas =[
                <a href="#">${data.email}</a>
       </div>
     `).join("");
+    container.innerHTML = malumot;
  }
