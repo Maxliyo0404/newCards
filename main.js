@@ -26,5 +26,6 @@ let datas =[
 
 ]
  function renderUser(data){
-   let malumot =
+   let malumot = datas.map(data => `
+    `)
  }
