@@ -36,4 +36,4 @@ let datas =[
     `).join("");
     container.innerHTML = malumot;
  }
- renderUser(data);
+ searchInput.addEventListener("input", function)
