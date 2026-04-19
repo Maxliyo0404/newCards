@@ -32,6 +32,6 @@ let datas =[
                <h2>${data.ism}</h2>
                <p>${data.familiya}</p>
                <a href="#">${data.email}</a>
-</div>
+      </div>
     `)
  }
