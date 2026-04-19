@@ -2,7 +2,7 @@ let container = document.getElementById("containerId");
 let searchInput = document.getElementById("input");
 
 let datas =[
-    [
+
   { "id": 1, "ism": "Ali", "familiya": "Vaxobov", "yosh": 24, "shahar": "Toshkent", "email": "ali@example.com" },
   { "id": 2, "ism": "Madina", "familiya": "Sodiqova", "yosh": 21, "shahar": "Samarqand", "email": "madina@example.com" },
   { "id": 3, "ism": "Javohir", "familiya": "Umarov", "yosh": 30, "shahar": "Buxoro", "email": "javohir@example.com" },
@@ -23,5 +23,5 @@ let datas =[
   { "id": 18, "ism": "Mohira", "familiya": "Axmedova", "yosh": 29, "shahar": "Qo'qon", "email": "mohira@example.com" },
   { "id": 19, "ism": "Bekzod", "familiya": "Zokirov", "yosh": 26, "shahar": "Bekobod", "email": "bekzod@example.com" },
   { "id": 20, "ism": "Sevara", "familiya": "G'ofurova", "yosh": 23, "shahar": "Zarafshon", "email": "sevara@example.com" }
-]
+
 ]
