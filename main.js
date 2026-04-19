@@ -36,3 +36,4 @@ let datas =[
     `).join("");
     container.innerHTML = malumot;
  }
+ renderUser(data);
