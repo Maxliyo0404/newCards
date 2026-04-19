@@ -33,5 +33,5 @@ let datas =[
                <p>${data.familiya}</p>
                <a href="#">${data.email}</a>
       </div>
-    `)
+    `).join("");
  }
